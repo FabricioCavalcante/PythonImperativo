@@ -66,7 +66,7 @@ def partida():
             x=computador_escolhe_jogada(n,m)
             n-=x
             if n==0:
-                print ("Fim do jogo! O computador ganhou!")
+                print ("Fim do jogo! O computador ganhou, que pena!")
             else: jm=usuario_escolhe_jogada(n,m)
             n-=jm
 
