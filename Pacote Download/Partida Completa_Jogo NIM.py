@@ -59,7 +59,7 @@ def partida():
             n-=jm
             x=computador_escolhe_jogada(n,m)
             n-=x
-        print ("Fim do jogo! O computador ganhou! Que legal")
+        print ("Fim do jogo! Você ganhou, que legal")
     else:
         print("Computador começa!") #computador_escolhe_jogada(n,m)
         while n>0:
