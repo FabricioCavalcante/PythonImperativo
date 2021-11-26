@@ -6,7 +6,7 @@ def usuario_escolhe_jogada(n,m):
     while n<=m:
         print("Oops! Jogada inválida! Tente de novo")
         n=int(input("Digite novamente o n"))
-        m=int (input("Digite Novamente o m"))
+        m=int (input("Digite novamente o m"))
 
     jm=0
     jm=int(input("Qual e o numero(s) de peça(s) retirada(s): "))
@@ -59,7 +59,7 @@ def partida():
             n-=jm
             x=computador_escolhe_jogada(n,m)
             n-=x
-        print ("Fim do jogo! O computador ganhou!")
+        print ("Fim do jogo! O computador ganhou! Que legal")
     else:
         print("Computador começa!") #computador_escolhe_jogada(n,m)
         while n>0:
