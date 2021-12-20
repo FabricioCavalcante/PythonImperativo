@@ -72,13 +72,5 @@ for i in range(len(valores)):
             sina=False
         if valores [i]==False:
             print("Quem reprovou foi:", nomes[i])
-        
 
-
-        
-
-
-
-
-
-
+#finalizado!!!
